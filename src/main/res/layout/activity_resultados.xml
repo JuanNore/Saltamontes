@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultadosActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="REGISTRO DE ESTUDIANTE"
+        android:textAlignment="center"
+        android:textColor="#0000ff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textNotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:text="@string/Notas"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/mostrarDocumento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarNombre"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/mostrarDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/mostrarEdad"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/mostrarEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/mostrarTelefono"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/mostrarTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarDocumento"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/mostrarNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/mostrarNota4"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarNota3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrarMateria3"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarMateria2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrarNota2"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarNota1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrarMateria4"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarMateria3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrarMateria5"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarMateria4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrarMateria2"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarMateria1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrarNota3"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarNota2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrarMateria1"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="22dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNotas"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrarNota5"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarNota4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrarNota1"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNotas"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrarPromedio"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="524dp"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/mostrarResultado"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="4dp"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarPromedio"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/btn_salirRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:text="Salir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

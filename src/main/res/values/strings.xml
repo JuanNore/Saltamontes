@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MisPequeñosSaltamontes</string>
+    <string name="app_name2">Mis Pequeños Saltamontes</string>
+    <string name="Notas">Notas</string>
+    <string name="Nuevo_Registro">Iniciar Registro</string>
+    <string name="Estadisticas">Estadisticas</string>
+    <string name="Ayuda">Ayuda</string>
+    <string name="Que_Es">Mis pequeños saltamontes es una app pensada para promediar las notas de los estudiantes, en este apartado podras saber como funciona nuestro sistema</string>
+    <string name="Como_Funciona">¿Como Funciona?</string>
+    <string name="ComoFunciona">Al abrir la aplicacion te aparecera el menu principal que costa de tres botones para su correcto funcionamiento</string>
+    <string name="NuevoRegistro">En este apartado se hará el registro de estudiantes, las 5 notas y se calculara el promedio</string>
+    <string name="EstadisticasApp">Esta presentara un informe donde se verá que estudiantes pierden y ganan, y los que tambien tienen opcion de recuperar</string>
+    <string name="AyudaApp">Aparte de ser la ventana actual, te ayudará a saber sobre el sistema y sus funcionalidades</string>
+</resources>
